@@ -39,7 +39,7 @@ window.onload = () => {
                   y: textScale,
                   z: textScale
               });
-              text.setAttribute("value", feature.properties.name);
+              text.setAttribute("value", "Uncle Fester");
               text.setAttribute("align", "center");
               compoundEntity.appendChild(box);
               compoundEntity.appendChild(text);
